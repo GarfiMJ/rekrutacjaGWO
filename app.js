@@ -95,7 +95,7 @@
             return [...this[_programmers]].filter(value => value[1][obj.field] === obj.value);
         }
 
-//zwraca tekst z listą dostępnych programistów
+//zwraca tekst z listą dostępnych programistów 
         getShowcase() {
             let availableProgrammers = [...this[_programmers].values()].filter(value => value.available);
             let text = 'Lista dostêpnych programistów:';
